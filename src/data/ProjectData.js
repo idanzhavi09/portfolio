@@ -1,39 +1,24 @@
+import mdagif from "../Assets/mdagif.gif"
+import ibot from "../Assets/ibot.png"
+import fluttericon from "/Users/idanz/portfolio-react/src/Assets/fluttericon.png"
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_1.png",
-    title: "Spense",
-    description: "Codewell challenge, Spense is a landing page for writers.",
-    tech_stack: "Html, Css, Javascript",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
+    img: mdagif,
+    title: "MDA",
+    description: "A logistics app to manage workers and equipment for Magen David Adom that serves as the Israeli Red Cross organization",
+    tech_stack: "Java , firebase",
+    github_url: "https://github.com/idanzhavi09/MDA.git",
+    demo_url: "https://drive.google.com/file/d/1ltsEJX5WxBlvDbRepPKynl4dmZHpfJCd/view?usp=sharing",
+  },  {
+    img: ibot,
+    title: "IBot",
+    description: "A whatsapp bot developed using JS and the whatsapp-web.js lib to make mundane tasks easier",
+    tech_stack: "JS , google sheets , api's",
+    github_url: "https://github.com/idanzhavi09/MDA.git",
+    demo_url: "",
   },
-  {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_2.png",
-    title: "Fiber",
-    description:
-      "An online portfolio generator. Great to practice flex/grid layouts, absolute positioning and sliders.",
-    tech_stack: "Html, Css, Javascript",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
-  },
-  {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/portfolio.png",
-    title: "Portfolio",
-    description: "Ofcourse i made my own personal portfolio website.",
-    tech_stack: "Reactjs, Css",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link/",
-  },
-  {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_3.png",
-    title: "Ecommerce website",
-    description:
-      "Created simple ecommerce website using reactjs and react-use-cart plugin.",
-    tech_stack: "Reactjs, Css",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
-  },
+  
 ];
 
 // --------------------------------------- Skills
@@ -70,5 +55,9 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/responsive.svg",
     name: "Responsive",
+  },
+  {
+    img: fluttericon,
+    name: "Flutter",
   },
 ];

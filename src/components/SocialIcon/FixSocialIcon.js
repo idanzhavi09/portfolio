@@ -36,7 +36,7 @@ function FixSocialIcon() {
       <ul>
         <li className="item">
           <a
-            href="https://www.linkedin.com/in/your_username/"
+            href="https://www.linkedin.com/in/idan-zehavi-317898236"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -45,7 +45,7 @@ function FixSocialIcon() {
         </li>
         <li className="item">
           <a
-            href="https://github.com/your_username/"
+            href="https://github.com/idanzhavi09"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -54,7 +54,7 @@ function FixSocialIcon() {
         </li>
         <li className="item">
           <a
-            href="https://github.com/your_username/"
+            href="https://www.instagram.com/_idan_zehavi/"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -1,5 +1,6 @@
 import React from "react";
 import { stackList } from "../../data/ProjectData";
+import avatar from "/Users/idanz/portfolio-react/src/Assets/avataaars.png"
 import {
   Image,
   Technologies,
@@ -15,20 +16,14 @@ function About() {
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
           <Image
-            src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
+            src={avatar}
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-            Hello! My name is <strong>Your Name</strong> Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged.
+          Hey! , my name is <strong> Idan Zehavi </strong>I'm a Fullstack developer as well as recruited to the IDF as a Devops developer for the inteligence department , Im highly passionate about programming  , Even as a young kid i've always taken interset in Computer Science , as you will see I've developed some impressive projects both for my CS/soft.Eng studies as well as projects for my personal Interest;
           </div>
           <div className="AboutBio tagline2">
-            I have become confident using the following technologies.
+            I have hands on expiriance using these technolegies.
           </div>
           <Technologies>
             {stackList.map((stack, index) => (
