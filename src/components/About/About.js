@@ -1,6 +1,6 @@
 import React from "react";
 import { stackList } from "../../data/ProjectData";
-import avatar from "/Users/idanz/portfolio-react/src/Assets/avataaars.png"
+import avatar from "../../Assets/avataaars.png"
 import {
   Image,
   Technologies,

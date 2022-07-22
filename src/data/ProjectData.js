@@ -1,6 +1,6 @@
 import mdagif from "../Assets/mdagif.gif"
 import ibot from "../Assets/ibot.png"
-import fluttericon from "/Users/idanz/portfolio-react/src/Assets/fluttericon.png"
+import fluttericon from "../Assets/fluttericon.png"
 // --------------------------------------- Project List
 export const ProjectList = [
   {
